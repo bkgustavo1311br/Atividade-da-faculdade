@@ -10,7 +10,7 @@ int main() {
     printf("Digite as coordenadas do segundo ponto :.\n ");
     scanf("%lf %lf", &x2, &y2);
 
-    // calculo da distancia entre os pontos
+    
     distancia = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
 
     // resultado
@@ -18,4 +18,4 @@ int main() {
 
     return 0;
 }
-// feito por: gustavo martins luz 
+
